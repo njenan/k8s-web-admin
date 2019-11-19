@@ -1,0 +1,21 @@
+html,
+body {
+    height: 100% margin: 0;
+}
+
+body {
+    font-family: helvetica, sans-serif, arial;
+    font-size: 1em;
+    color: #111;
+}
+
+#terminal-container {
+    margin: 0;
+    padding: 2px;
+    min-height: 100%;
+}
+
+p {
+    font-size: 0.9em;
+    font-style: italic
+}
