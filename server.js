@@ -37,7 +37,7 @@ function startServer() {
           name : 'xterm-256color',
           cols : cols || 80,
           rows : rows || 24,
-          cwd : "~/",
+          cwd : "/home/kube-user",
           env : env,
           encoding : USE_BINARY ? null : 'utf8'
         });
