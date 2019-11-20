@@ -17,7 +17,8 @@ WORKDIR /app
 
 RUN npm install
 
-# TODO add a non-root user
+RUN addgroup kube-group && adduser -D kube-user -G kube-group
+USER kube-user
 
 CMD ["node", "/app/server.js"]
 
